@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Origin</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: left;
+  }
+  .header h1 {
+    margin: 0;
+    display: inline-block;
+  }
+  .nav-buttons a {
+    margin-left: 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  .scrolling-images,
+  .small-images {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  .scrolling-images img,
+  .small-images img {
+    margin-right: 10px;
+    max-height: 200px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  .small-images {
+    justify-content: space-between;
+  }
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Origin</h1>
+  <div class="nav-buttons">
+    <a href="Url/艺境.html">艺境/Art</a>
+    <a href="Url/探梦.html">探梦/future</a>
+    <a href="Url/映空.html">映空/Sky</a>
+    <a href="Url/领构.html">领构/Plan</a>
+  </div>
+</div>
+
+<div class="image-container">
+  <img src="Pic/big-image.jpg" alt="大图">
+</div>
+
+<div class="scrolling-images">
+  <img src="Pic/scroll-image1.jpg" alt="滚动图1">
+  <img src="Pic/scroll-image2.jpg" alt="滚动图2">
+  <img src="Pic/scroll-image3.jpg" alt="滚动图3">
+  <img src="Pic/scroll-image4.jpg" alt="滚动图4">
+</div>
+
+<div class="small-images">
+  <img src="Pic/small-image1.jpg" alt="小图1">
+  <img src="Pic/small-image2.jpg" alt="小图2">
+  <img src="Pic/small-image3.jpg" alt="小图3">
+</div>
+
+<div class="footer">
+  Origin（2024）保留一切权利
+</div>
+
+</body>
+</html>
